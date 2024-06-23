@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>realty</title>
+        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="bodytable" onload="GenerateCaptcha()">
+      <nav>
+        <div class="navother">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="Home.html">الصفحة الرئيسية</a>
+          <a href="realty.html">العقارات</a>
+          <a href="about.html" >حول</a>
+          <a href="Home.html" class="split">عقاراتي</a>
+          <a href="#contact" class="split2">تسجيل الدخول</a>
+        </div>
+      </nav>
+      <nav class="name" style="color: black;">
+        <h2>
+            جميع العقارات
+        </h2>
+        <p>
+       تفاصيل العقار
+        </p>
+      </nav>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">  </th>
+              <th scope="col">  </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row"><img src= 
+                "images/p5.png" 
+                alt="GFG Logo" width="100%"
+                height="100%" > 
+              </td> 
+              <td>
+                <h3>شقة غرفة وصالة </h3>
+                <br>
+                <p>دمشق</p>
+                <br>
+                <p>200000 ل.س</p>
+                <br>
+                <button class="button" onclick="showdetails('#home3')" style="vertical-align:middle"><span>تم</span></button>
+              </td>
+            </tr>
+            <TR>
+            <div class="hidden" id="home1"><h3>منزل</h3><br>
+              <h3>شقة غرفة وصالة مساحة 70 م  </h3><br>
+              <b> المنطقة</b> ركن الدين <br>
+              <b> الملكية</b> طابو أخضر<br>
+             <b> الطابق</b> الثالث<br>
+              <b> مفروشة </b> <br>
+              <b> تحوي كراج </b><br><br>
+              <img src="images/p1.png" width="100px" height="100px"> 
+              <img src="images/p2.png" width="100px" height="100px">
+              <img src="images/p1.png"  width="100px" height="100px" > 
+              <img src="images/p2.png" width="100px" height="100px">
+              <br><br>
+          <ul>
+          <p> الاجار اليومي 200 الف</p>
+          </ul>
+          <br>
+          <button class="button" action="page">
+              <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home1')">
+              حجز
+          </button>
+          <button class="button" onclick="showdetails('#home1')">اخفاء</button>
+          </div>
+
+        </TR>
+        
+            <!-- several other great bands -->
+          <tr>
+            <td scope="row"><img src= 
+                "images/a4.png" 
+                alt="GFG Logo" width="100%" 
+                height="100%"> 
+            </td>
+            <td>
+              <h3>شقة غرفة وصالة </h3>
+              <br>
+              <p>دمشق</p>
+              <br>
+              <p>700000 ل.س</p>
+              <br>
+              <button class="button" onclick="showdetails('#home2')" style="vertical-align:middle"><span>تم</span></button>
+            </td>
+          </tr>
+          <TR>
+            <div class="hidden" id="home2"><h3>منزل</h3><br>
+              <h3>شقة غرفة وصالة مساحة 100 م  </h3><br>
+              <b> المنطقة</b> مزة  <br>
+              <b> الملكية</b> طابو أخضر<br>
+             <b> الطابق</b> الثاني<br>
+              <b> مفروشة </b> <br>
+              <b> تحوي كراج </b><br><br>
+              <img src="images/p1.png" width="100px" height="100px"> 
+              <img src="images/p2.png" width="100px" height="100px">
+              <img src="images/p1.png"  width="100px" height="100px" > 
+              <img src="images/p2.png" width="100px" height="100px">
+              <br><br>
+           
+          <ul>
+          <p> الاجار الاسبوعي 700 الف </p>
+          </ul>
+          <br>
+          <button class="button" action="page">
+              <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home2')">
+              حجز
+          </button>
+          <button class="button" onclick="showdetails('#home2')">اخفاء</button>
+          </div>
+        </TR>
+
+          <tr>
+            <td scope="row"><img src= 
+                "images/a5.png" 
+                alt="GFG Logo" width="100%" 
+                height="100%"> 
+            </td>
+            <td>
+              <h3>شقة غرفتين وصالة   </h3>
+              <br>
+              <p>دمشق</p>
+              <br>
+              <p>3 مليون ل.س</p>
+              <br>
+              <button class="button" onclick="showdetails('#home3')" style="vertical-align:middle"><span>تم</span></button>
+            </td>
+          </tr>
+
+          <TR>
+            <div class="hidden" id="home3"><h3>منزل</h3><br>
+              <h3>شقة غرفتين وصالة مساحة 100 م  </h3><br>
+              <b> المنطقة</b> مشروع دمر<br>
+              <b> الملكية</b> طابو أخضر<br>
+             <b> الطابق</b> الثالث<br>
+              <b> مفروشة </b> <br><br>
+              <img src="images/p1.png" width="100px" height="100px"> 
+              <img src="images/p2.png" width="100px" height="100px">
+              <img src="images/p1.png"  width="100px" height="100px" > 
+              <img src="images/p2.png" width="100px" height="100px">
+              <br><br>
+           
+          <ul>
+          <p> الاجار الشهري 3 مليون</p>
+          </ul>
+          <br>
+          <button class="button" action="page">
+              <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home3')">
+              حجز
+          </button>
+          <button class="button" onclick="showdetails('#home3')">اخفاء</button>
+          </div>
+        </TR>
+
+        <tr>
+          <td scope="row"><img src= 
+              "images/a6.png" 
+              alt="GFG Logo" width="100%" 
+              height="100%"> 
+          </td>
+          <td>
+            <h3>شقة غرفة وصالة   </h3>
+            <br>
+            <p>دمشق</p>
+            <br>
+            <p>700 الف ل.س
+              
+            </p>
+            <br>
+            <button class="button" onclick="showdetails('#home4')" style="vertical-align:middle"><span>تم</span></button>
+          </td>
+        </tr>
+
+        <TR>
+          <div class="hidden" id="home4"><h3>منزل</h3><br>
+            <h3>شقة غرفة وصالة مساحة 80 م  </h3><br>
+            <b> المنطقة</b> شارع بفداد <br>
+            <b> الملكية</b> طابو أخضر<br>
+           <b> الطابق</b> الاول<br>
+            <b>  مفروشة </b> <br>
+            <b> طاقة شمسية </b><br><br>
+              <img src="images/p1.png" width="100px" height="100px"> 
+              <img src="images/p2.png" width="100px" height="100px">
+              <img src="images/p1.png"  width="100px" height="100px" > 
+              <img src="images/p2.png" width="100px" height="100px">
+              <br><br>
+         
+        <ul>
+        <p> الاجار الاسبوعي 700 الف</p>
+        </ul>
+        <br>
+        <button class="button" action="page">
+            <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home4')">
+            حجز
+        </button>
+        <button class="button" onclick="showdetails('#home4')">اخفاء</button>
+        </div>
+      </TR>
+
+      <tr>
+        <td scope="row"><img src= 
+            "images/a7.png" 
+            alt="GFG Logo" width="100%" 
+            height="100%"> 
+        </td>
+        <td>
+          <h3>شقة 3 غرف وصالة </h3>
+          <br>
+          <p>دمشق</p>
+          <br>
+          <p>3 مليون ل.س</p>
+          <br>
+          <button class="button" onclick="showdetails('#hom5')" style="vertical-align:middle"><span>تم</span></button>
+        </td>
+      </tr>
+
+      <TR>
+        <div class="hidden" id="home5"><h3>منزل</h3><br>
+          <h3>شقة 3 غرف وصالة مساحة 110 م  </h3><br>
+          <b> المنطقة</b> برامكة<br>
+          <b> الملكية</b> طابو أخضر<br>
+         <b> الطابق</b> الثاني<br>
+          <b> مفروشة </b> <br>
+          <b> تحوي كراج وطاقة شمسية </b><br><br>
+            <img src="images/p1.png" width="100px" height="100px"> 
+            <img src="images/p2.png" width="100px" height="100px">
+            <img src="images/p1.png"  width="100px" height="100px" > 
+            <img src="images/p2.png" width="100px" height="100px">
+            <br><br>
+       
+      <ul>
+      <p> الاجار الشهري 3 مليون ل.س</p>
+      </ul>
+      <br>
+      <button class="button" action="page">
+          <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home5')">
+          حجز
+      </button>
+      <button class="button" onclick="showdetails('#home5')">اخفاء</button>
+      </div>
+    </TR>
+
+
+
+    <tr>
+      <td scope="row"><img src= 
+          "images/a8.jpg" 
+          alt="GFG Logo" width="100%" 
+          height="100%"> 
+      </td>
+      <td>
+        <h3>شقة غرفة وصالة  </h3>
+        <br>
+        <p>دمشق</p>
+        <br>
+        <p>مليون ونص ل.س</p>
+        <br>
+        <button class="button" onclick="showdetails('#home6')" style="vertical-align:middle"><span>تم</span></button>
+      </td>
+    </tr>
+
+    <TR>
+      <div class="hidden" id="home6"><h3>منزل</h3><br>
+        <h3>شقة غرفة وصالة مساحة 90 م  </h3><br>
+        <b> المنطقة</b>الجسر الابيض<br>
+        <b> الملكية</b> طابو أخضر<br>
+        <b> الطابق</b> الخامس<br>
+        <b> مفروشة </b> <br>
+        <b> تحوي كراج وطاقة شمسية</b><br><br>
+          <img src="images/p1.png" width="100px" height="100px"> 
+          <img src="images/p2.png" width="100px" height="100px">
+          <img src="images/p1.png"  width="100px" height="100px" > 
+          <img src="images/p2.png" width="100px" height="100px">
+          <br><br>
+     
+    <ul>
+    <p>  الاجار الشهري مليون ونص ل.س </p>
+    </ul>
+    <br>
+    <button class="button" action="page">
+        <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home6')">
+        حجز
+    </button>
+    <button class="button" onclick="showdetails('#home6')">اخفاء</button>
+    </div>
+  </TR>
+
+
+  <tr>
+    <td scope="row"><img src= 
+        "images/p7.png" 
+        alt="GFG Logo" width="100%" 
+        height="100%"> 
+    </td>
+    <td>
+      <h3>شقة 4 غرفة وصالة </h3>
+      <br>
+      <p>دمشق</p>
+      <br>
+      <p>3مليون</p>
+      <br>
+      <button class="button" onclick="showdetails('#home7')" style="vertical-align:middle"><span>تم</span></button>
+    </td>
+  </tr>
+
+  <TR>
+    <div class="hidden" id="home7"><h3>منزل</h3><br>
+      <h3>شقة غرفة وصالة مساحة 140 م  </h3><br>
+      <b> المنطقة</b> الزاهرة<br>
+      <b> الملكية</b> طابو أخضر<br>
+     <b> الطابق</b> الثالث<br>
+      <b> غير مفروشة </b> <br>
+      <b> كسوة سوبر ديلوكس</b><br><br>
+        <img src="images/p1.png" width="100px" height="100px"> 
+        <img src="images/p2.png" width="100px" height="100px">
+        <img src="images/p1.png"  width="100px" height="100px" > 
+        <img src="images/p2.png" width="100px" height="100px">
+        <br><br>
+   
+  <ul>
+  <p> الاجار الشهري 3 مليون</p>
+  </ul>
+  <br>
+  <button class="button" action="page">
+      <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home7')">
+      حجز
+  </button>
+  <button class="button" onclick="showdetails('#home7')">اخفاء</button>
+  </div>
+</TR>
+
+<tr>
+  <td scope="row"><img src= 
+      "images/a1.png" 
+      alt="GFG Logo" width="100%" 
+      height="100%"> 
+  </td>
+  <td>
+    <h3>شقة 2 غرف وصالة </h3>
+    <br>
+    <p>دمشق</p>
+    <br>
+    <p>2 مليون </p>
+    <br>
+    <button class="button" onclick="showdetails('#home8')" style="vertical-align:middle"><span>تم</span></button>
+  </td>
+</tr>
+
+<TR>
+  <div class="hidden" id="home8"><h3>منزل</h3><br>
+    <h3>شقة 2 غرفة وصالة مساحة 100 م  </h3><br>
+    <b> المنطقة</b>المنطقة الصناعية <br>
+    <b> الملكية</b> طابو أخضر<br>
+   <b> الطابق</b> الثاني<br>
+    <b> مفروشة </b> <br>
+    <b> طاقة شمسية كسوة جيدة</b><br><br>
+      <img src="images/p1.png" width="100px" height="100px"> 
+      <img src="images/p2.png" width="100px" height="100px">
+      <img src="images/p1.png"  width="100px" height="100px" > 
+      <img src="images/p2.png" width="100px" height="100px">
+      <br><br>
+ 
+<ul>
+<p> الاجار الشهري 2 مليون</p>
+</ul>
+<br>
+<button class="button" action="page">
+    <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home8')">
+    حجز
+</button>
+<button class="button" onclick="showdetails('#home8')">اخفاء</button>
+</div>
+</TR>
+
+<tr>
+  <td scope="row"><img src= 
+      "images/a2.png" 
+      alt="GFG Logo" width="100%" 
+      height="100%"> 
+  </td>
+  <td>
+    <h3>شقة غرفة وصالة   </h3>
+    <br>
+    <p>دمشق</p>
+    <br>
+    <p>800 الف</p>
+    <br>
+    <button class="button" onclick="showdetails('#home9')" style="vertical-align:middle"><span>تم</span></button>
+  </td>
+</tr>
+
+<TR>
+  <div class="hidden" id="home9"><h3>منزل</h3><br>
+    <h3>شقة غرفة وصالة مساحة 80 م  </h3><br>
+    <b> المنطقة</b> ميدان<br>
+    <b> الملكية</b> طابو أخضر<br>
+   <b> الطابق</b> الثالث<br>
+    <b> مفروشة </b> <br>
+    <b>مصعد  </b><br><br>
+      <img src="images/p1.png" width="100px" height="100px"> 
+      <img src="images/p2.png" width="100px" height="100px">
+      <img src="images/p1.png"  width="100px" height="100px" > 
+      <img src="images/p2.png" width="100px" height="100px">
+      <br><br>
+ 
+<ul>
+<p> الاجار اليومي 800 الف</p>
+</ul>
+<br>
+<button class="button" action="page">
+    <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home9')">
+    حجز
+</button>
+<button class="button" onclick="showdetails('#home9')">اخفاء</button>
+</div>
+</TR>
+
+<tr>
+  <td scope="row"><img src= 
+      "images/a3.png" 
+      alt="GFG Logo" width="100%" 
+      height="100%"> 
+  </td>
+  <td>
+    <h3>شقة 5 غرفة وصالة  </h3>
+    <br>
+    <p>دمشق</p>
+    <br>
+    <p></p>
+    <br>
+    <button class="button" onclick="showdetails('#home10')" style="vertical-align:middle"><span>تم</span></button>
+  </td>
+</tr>
+
+<TR>
+  <div class="hidden" id="home10"><h3>منزل</h3><br>
+    <h3>شقة غرفة وصالة مساحة 70 م  </h3><br>
+    <b> المنطقة</b> ركن الدين <br>
+    <b> الملكية</b> طابو أخضر<br>
+   <b> الطابق</b> الثالث<br>
+    <b> مفروشة </b> <br>
+    <b> تحوي كراج </b><br><br>
+      <img src="images/p1.png" width="100px" height="100px"> 
+      <img src="images/p2.png" width="100px" height="100px">
+      <img src="images/p1.png"  width="100px" height="100px" > 
+      <img src="images/p2.png" width="100px" height="100px">
+      <br><br>
+ 
+<ul>
+<p> الاجار الشهري 200</p>
+</ul>
+<br>
+<button class="button" action="page">
+    <input type="checkbox" name="ch" value="ok" onchange="ShowForm(); showdetails('#home10')">
+    حجز
+</button>
+<button class="button" onclick="showdetails('#home10')">اخفاء</button>
+</div>
+</TR>
+
+</tbody>
+  <tfoot >
+    <tr >
+      <th class="end" colspan="1" scope="row">Total</th>
+      <td class="end2" style="width: 35%;" >10</td>
+    </tr>
+  </tfoot>
+
+<script src="JavaScript.js"></script>
+</table> 
+ 
+<section class="section-rental" >
+  <div class="row" id="show1" hidden> 
+      <div class="login-box">
+          <h2>Request Loan</h2>
+          <form  name="myform" onsubmit="return validateForm();" method="post">
+              <div class="full-name">
+                  <div class="user-box-inline">
+                      <input type="text" name="first_name"required  onkeydown="return /[a-z]/i.test(event.key)">
+                      <label class="first_name">الاسم الأول</label>
+                  </div>
+                  <div class="user-box-inline">
+                      <input type="text" name="middle_name" required onkeydown="return /[a-z]/i.test(event.key)">
+                      <label class="middle_name">اسم الاب</label>
+                  </div>
+                  <div class="user-box-inline">
+                      <input type="text" name="last_name" required onkeydown="return /[a-z]/i.test(event.key)">
+                      <label class="last_name">الكنية</label>
+                  </div>
+              </div>
+              <div class="user-box">
+                   <input type="text" maxlength="11" name="ID_number" required>
+                  <label>الرقم الوطني</label>
+              </div>
+              <div class="user-box">
+                  <input type="date" name="date" data-date-inline-picker="true" required />
+              
+              </div>
+              <div class="user-box">
+                  <input maxlength="10" type="tel" name="phone"  required >
+                 <label>رقم الموبايل</label>
+              </div>
+              <div class="user-box">
+                  <input type="email" name="email" required>
+                 <label>الايميل</label>
+              </div>
+              <div class="rent_option">
+                  <div class="user-box-inline">
+                      <select id="rent_type" onchange="Rent_Type()">
+                          <option >الحجز</option>
+                          <option value="Day">يوم</option>
+                          <option value="Week">اسبوع</option>
+                          <option value="Year">سنة</option>
+                      </select>
+                  </div>
+                  <div class="user-box-inline" id="day" style="margin-right:20px ;" hidden>
+                      <input type="number" name="day">
+                      <label >ادخل عدد الايام</label>
+                  </div>
+                  <div class="user-box-inline" id="week" style="margin-right:20px ;" hidden>
+                      <input type="number" name="week">
+                      <label >ادخل عدد الاسابيع </label>
+                  </div>
+                  <div class="user-box-inline" id="year" style="margin-right:20px ;" hidden>
+                      <input type="number" name="year">
+                      <label >ادخل عدد السنين</label>
+                  </div>
+              </div>
+              <div class="user-box">
+                  <label for="">ادخل رمز التحقق 
+
+                  </label><br><br>
+                  <input type="text" id="txtCompare" />  
+                  <input type="text" id="txtCaptcha" 
+                  style="text-align: center; border: none; font-weight: bold; font-size: 20px; font-family: Modern" />  
+              </div>     
+              <a>     
+                <button class="button" id="myButton" type="submit" style="vertical-align:middle; height: 50px; width: 110px;">
+                  <span style="font-size: 15px; color: #295384; font-weight: bold; "> 
+                    ارسال
+                  </span>
+                </button>
+                  
+              </a>
+          </form>
+        </div>
+  </div>
+</section>
+
+<script src="JavaScript.js"></script>
+    </body>
+</html>
